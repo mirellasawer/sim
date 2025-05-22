@@ -1,0 +1,96 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(32, 89, 58, 0.8), rgba(26, 42, 99, 0.8)), url('campo-cidade.jpg') center/cover no-repeat;
+    color: #fff;
+    margin: 0;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    }
+    
+    body:hover {
+    transform: translateY(-6px);
+    }
+    
+    header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    
+    header h1 {
+    font-size: 32px;
+    color: #ffffcc;
+    margin-bottom: 5px;
+    }
+    
+    header p {
+    font-size: 18px;
+    color: #d0f0c0;
+    }
+    
+    nav {
+    background-color: rgba(0, 50, 0, 0.8);
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    }
+    
+    nav a {
+    color: #d0f0c0;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    }
+    
+    nav a:hover {
+    color: #ffffcc;
+    }
+    
+    main {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 12px;
+    }
+    
+    h2 {
+    font-size: 28px;
+    color: #ccffcc;
+    margin-bottom: 10px;
+    }
+    
+    p {
+    font-size: 18px;
+    line-height: 1.6;
+    }
+    
+    .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px;
+    margin-top: 15px;
+    }
+    
+    .image-grid img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+    }
+    
+    .image-grid img:hover {
+    transform: scale(1.05);
+    }
+    
+    footer {
+    background-color: rgba(0, 50, 0, 0.8);
+    color: #d0f0c0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 8px;
+    }
+    

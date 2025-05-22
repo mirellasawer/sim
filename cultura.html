@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Cultura e Sustentabilidade</title>
+<link rel="stylesheet" href="style-cultura.css" />
+</head>
+<body>
+<header>
+<h1>Cultura e Sustentabilidade</h1>
+<p>Resgatando valores e cuidando do nosso futuro</p>
+</header>
+
+<nav>
+<a href="index.html">Início</a>
+<a href="agricultura.html">Agricultura Familiar</a>
+<a href="cultura.html">Cultura e Sustentabilidade</a>
+</nav>
+
+<main>
+<section>
+<h2>A importância da cultura e da sustentabilidade</h2>
+<p>
+A cultura preserva nossas raízes e tradições, enquanto a sustentabilidade protege o meio ambiente para as futuras gerações. Unindo essas forças, promovemos uma vida mais equilibrada e conectada ao campo e à cidade.
+</p>
+</section>
+
+<section class="gallery">
+<h3>Expressões Culturais e Sustentáveis</h3>
+<div class="image-grid">
+<img src="cult1.jpg" alt="Cultura 1" />
+<img src="cult2.jpg" alt="Cultura 2" />
+<img src="cult3.jpg" alt="Sustentabilidade 1" />
+<img src="cult4.jpg" alt="Cultura 3" />
+<img src="cult5.jpg" alt="Sustentabilidade 2" />
+</div>
+</section>
+</main>
+
+<footer>
+<p>&copy; 2025 Projeto Agrinho
+Cultura e Sustentabilidade</p>
+</footer>
+</body>
+</html>
+6. style-cultura.css
+body {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+background-color: #1e3c72;
+color: #ffffff;
+margin: 0;
+padding: 0;
+}
+
+header {
+background: linear-gradient(to right, #2a5298, #1e3c72);
+color: #ffffff;
+text-align: center;
+padding: 30px;
+}
+
+nav {
+background-color: #0b0c2a;
+text-align: center;
+padding: 15px;
+}
+
+nav a {
+color: #ffcc00;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+}
+
+nav a:hover {
+color: #ffffff;
+}
+
+main {
+padding: 20px;
+}
+
+.image-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+gap: 15px;
+margin-top: 15px;
+}
+
+.image-grid img {
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+transition: transform 0.3s;
+}
+
+.image-grid img:hover {
+transform: scale(1.05);
+}
+
+footer {
+background-color: #0b0c2a;
+text-align: center;
+color: white;
+padding: 20px;
+}
+
